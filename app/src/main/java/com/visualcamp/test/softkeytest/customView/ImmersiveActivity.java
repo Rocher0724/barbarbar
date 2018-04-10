@@ -33,10 +33,6 @@ public class ImmersiveActivity extends AppCompatActivity {
     uiOption ^= View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
   }
 
-  /**
-   *  Profile Activity에서 다이얼로그가 생성되었을 때 소프트키가 다시 생기는데
-   *  이때 use나 select를 선택하지않고 바탕을 눌러 빠져나왔을때 소프트키가 남아있게 되는 것을 방지하는 코드이다.
-   */
   @Override
   public void onWindowFocusChanged(boolean hasFocus) {
     if( hasFocus ) {
@@ -44,3 +40,6 @@ public class ImmersiveActivity extends AppCompatActivity {
     }
   }
 }
+// 스테이터스바 삭제
+// 액션바 삭제
+// 스테이터스바, 액션바 삭제

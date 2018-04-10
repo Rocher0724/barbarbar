@@ -30,6 +30,8 @@
 
 
   <style name="activity4" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!--<item name="windowActionBar">false</item> 주석 해제시 액션바 없어짐-->
+    <!--<item name="windowNoTitle">true</item>-->
     <item name="colorPrimary">@color/colorPrimary</item>
     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     <item name="colorAccent">@color/colorAccent</item>
